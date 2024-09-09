@@ -1,13 +1,5 @@
 #!/bin/bash
 
-# Map custom domain
-# echo "0.0.0.0 wasims.apc.edu.ph" | sudo tee -a "/etc/hosts" > /dev/null
-
-# Generate ssl certificate
-# cd docker/nginx/ssl
-# bash generate-keys.sh
-# cd ../../..
-
 # Copy environment variables
 cp .env.example .env
 
@@ -39,5 +31,5 @@ sleep 15
 ./vendor/bin/sail npm run dev
 
 # Add an alias
-echo "alias sail='./vendor/bin/sail'" >> ~/.bashrc
+sudo echo "alias sail='./vendor/bin/sail'" >> ~/.bashrc
 source ~/.bashrc
