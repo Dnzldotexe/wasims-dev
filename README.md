@@ -1,4 +1,4 @@
-## How to run
+## How to run the project
 
 ### Clone repository
 ```
@@ -10,35 +10,26 @@ git clone https://github.com/Dnzldotexe/wasims-dev.git
 cd wasims-dev/
 ```
 
-### Copy environment variables
+### Setup development environment
 ```
-cp .env.example .env
-```
-
-### Install dependencies
-```
-docker run --rm \
-    -u "$(id -u):$(id -g)" \
-    -v "$(pwd):/var/www/html" \
-    -w /var/www/html \
-    laravelsail/php83-composer:latest \
-    composer install --ignore-platform-reqs
+chmod u+x dev-setup.sh
+./dev-env-wasims.sh
 ```
 
-### Add an alias
+# How to stop the project
+
+### Stop npm
+Press keys `CTRL + C`
+
+### Stop sail container
 ```
-sudo echo "alias sail='./vendor/bin/sail'" >> ~/.bashrc
-source ~/.bashrc
+sail down
 ```
 
-### Run project
+### Run it again
 ```
 sail up -d
-```
-
-### Run database migrations
-```
-sail artisan migrate
+sail npm run dev
 ```
 
 ## License
