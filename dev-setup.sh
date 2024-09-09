@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Copy Environment Variables
+# Copy environment variables
 cp .env.example .env
 
-# Install Composer Dependencies
+# Install composer dependencies
 docker run --rm \
     -u "$(id -u):$(id -g)" \
     -v "$(pwd):/var/www/html" \
@@ -11,25 +11,25 @@ docker run --rm \
     laravelsail/php83-composer:latest \
     composer install --ignore-platform-reqs
 
-# Run Sail in the Background
+# Run sail in the background
 ./vendor/bin/sail up -d
 sleep 15
 
-# Run Database Migrations
+# Run database migrations
 ./vendor/bin/sail php artisan migrate
 
-# Install React using Laravel Breeze
+# Install react using laravel breeze
 ./vendor/bin/sail composer require laravel/breeze --dev
 ./vendor/bin/sail php artisan breeze:install react
 ./vendor/bin/sail npm install
 
-# Install Tailwind CSS
+# Install tailwind
 ./vendor/bin/sail npm install -D tailwindcss postcss autoprefixer
 ./vendor/bin/sail npx tailwindcss init -p
 
-# Compile Assets
+# Compile assets
 ./vendor/bin/sail npm run dev
 
-# Add an Alias
+# Add an alias
 sudo echo "alias sail='./vendor/bin/sail'" >> ~/.bashrc
 source ~/.bashrc
