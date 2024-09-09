@@ -13,7 +13,7 @@ cd wasims-dev/
 ### Setup development environment
 ```
 chmod u+x dev-setup.sh
-./dev-env-wasims.sh
+./dev-setup.sh
 ```
 
 # How to stop the project
