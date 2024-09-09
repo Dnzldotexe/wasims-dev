@@ -16,7 +16,7 @@ chmod u+x dev-setup.sh
 ./dev-setup.sh
 ```
 
-# How to stop the project
+## How to stop the project
 
 ### Stop npm
 Press keys `CTRL + C`
