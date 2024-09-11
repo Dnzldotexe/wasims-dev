@@ -50,9 +50,9 @@ services:
     #         - pgsql
     #         - dbeaver
     #         - redis
-    #         - meilisearch
-    #         - mailpit
-    #         - selenium
+    # #         - meilisearch
+    # #         - mailpit
+    # #         - selenium
     pgsql:
         image: 'postgres:15'
         ports:
@@ -147,5 +147,5 @@ volumes:
         driver: local
     sail-redis:
         driver: local
-    sail-meilisearch:
-        driver: local
+    # sail-meilisearch:
+    #     driver: local

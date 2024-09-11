@@ -39,5 +39,5 @@ sleep 15
 ./vendor/bin/sail npm run dev
 
 # Add an alias
-echo "alias sail='./vendor/bin/sail'" >> ~/.bashrc
-source ~/.bashrc
+# echo "alias sail='./vendor/bin/sail'" >> ~/.bashrc
+# source ~/.bashrc
