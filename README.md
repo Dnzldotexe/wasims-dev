@@ -1,4 +1,4 @@
-## How to run the project
+## To run the project
 ### Clone repository
 ```
 git clone https://github.com/Dnzldotexe/wasims-dev.git
@@ -13,7 +13,7 @@ chmod u+x dev-setup.sh
 ./dev-setup.sh
 ```
 
-## How to stop the project
+## To stop the project
 ### Stop npm
 Press keys `CTRL + C`
 ### Stop sail container
@@ -30,14 +30,15 @@ sail npm run dev
 
 
 ## To use custom domain
-### Add following code to hostfile `C:\Windows\System32\drivers\etc\hosts`
+### Add following code to hostfile
 ```
 0.0.0.0 wasims.apc.edu.ph
 ::1 wasims.apc.edu.ph localhost
 ```
+Located in `C:\Windows\System32\drivers\etc\hosts`
 ### Add certificate in your browser
 [Importing SSL Certificate in Firefox](https://docs.titanhq.com/en/3834-importing-ssl-certificate-in-mozilla-firefox.html)
 
-## License
 
+## License
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
