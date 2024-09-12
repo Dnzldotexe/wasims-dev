@@ -36,9 +36,16 @@ sail npm run dev
 ::1 wasims.apc.edu.ph localhost
 ```
 Located in `C:\Windows\System32\drivers\etc\hosts`
-### Add certificate in your browser
-[Importing SSL Certificate in Firefox](https://docs.titanhq.com/en/3834-importing-ssl-certificate-in-mozilla-firefox.html)
-
+### Add certificate to windows certificate manager
+Open windows run by pressing `WINKEY + R`   
+Type `certmgr.msc` then enter   
+Open `Trusted Root Certification Authorities`   
+Right click `Certificates`  
+Click `All Tasks > Import > Browse` 
+Paste the location of `default.crt` file    
+In my case it is `\\wsl.localhost\Ubuntu\home\<user>\wasims-dev\docker\nginx\ssl`   
+Click next until certificate is successfully added  
+Open [wasims.apc.edu.ph](http://wasims.apc.edu.ph/) 
 
 ## License
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
