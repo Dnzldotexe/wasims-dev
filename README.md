@@ -45,7 +45,10 @@ Located in `C:\Windows\System32\drivers\etc\hosts`
 6. Paste the location of `default.crt` file    
 7. In my case it is `\\wsl.localhost\Ubuntu\home\<user>\wasims-dev\docker\nginx\ssl`   
 8. Click next until certificate is successfully added  
-9. Open [wasims.apc.edu.ph](http://wasims.apc.edu.ph/) 
+9. Open `Firefox > Settings > Search Certificates > View Certificates > Servers > Add Exception`    
+10. Paste `https://wasims.apc.edu.ph`
+11. Press Get Certificate and Confirm
+12. Open [wasims.apc.edu.ph](http://wasims.apc.edu.ph/) 
 
 ## License
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
