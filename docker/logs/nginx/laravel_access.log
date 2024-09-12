@@ -126,3 +126,6 @@
 172.18.0.1 - - [12/Sep/2024:08:17:00 +0000] "GET /build/assets/InputLabel-DEE2OmNp.js HTTP/1.1" 200 205 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0"
 172.18.0.1 - - [12/Sep/2024:08:17:00 +0000] "GET /build/assets/PrimaryButton-DWihd2M-.js HTTP/1.1" 200 504 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0"
 172.18.0.1 - - [12/Sep/2024:08:17:03 +0000] "GET / HTTP/1.1" 200 8947 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0"
+172.18.0.1 - - [12/Sep/2024:08:29:35 +0000] "GET / HTTP/1.1" 200 8958 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"
+172.18.0.1 - - [12/Sep/2024:08:29:35 +0000] "GET /build/assets/app-D3YMUNuH.js HTTP/1.1" 200 257489 "https://wasims.apc.edu.ph/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"
+172.18.0.1 - - [12/Sep/2024:08:29:35 +0000] "GET /build/assets/Welcome-DWynx5l0.js HTTP/1.1" 200 19286 "https://wasims.apc.edu.ph/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"
