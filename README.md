@@ -37,15 +37,15 @@ sail npm run dev
 ```
 Located in `C:\Windows\System32\drivers\etc\hosts`
 ### Add certificate to windows certificate manager
-Open windows run by pressing `WINKEY + R`   
-Type `certmgr.msc` then enter   
-Open `Trusted Root Certification Authorities`   
-Right click `Certificates`  
-Click `All Tasks > Import > Browse` 
-Paste the location of `default.crt` file    
-In my case it is `\\wsl.localhost\Ubuntu\home\<user>\wasims-dev\docker\nginx\ssl`   
-Click next until certificate is successfully added  
-Open [wasims.apc.edu.ph](http://wasims.apc.edu.ph/) 
+1. Open windows run by pressing `WINKEY + R`   
+2. Type `certmgr.msc` then enter   
+3. Open `Trusted Root Certification Authorities`   
+4. Right click `Certificates`  
+5. Click `All Tasks > Import > Browse` 
+6. Paste the location of `default.crt` file    
+7. In my case it is `\\wsl.localhost\Ubuntu\home\<user>\wasims-dev\docker\nginx\ssl`   
+8. Click next until certificate is successfully added  
+9. Open [wasims.apc.edu.ph](http://wasims.apc.edu.ph/) 
 
 ## License
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
