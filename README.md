@@ -29,7 +29,7 @@ sail npm run dev
 ```
 
 
-## To use custom domain
+## To use custom domain (optional)
 ### Add following code to hostfile
 ```
 0.0.0.0 wasims.apc.edu.ph
