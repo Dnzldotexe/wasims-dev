@@ -49,6 +49,7 @@ Located in `C:\Windows\System32\drivers\etc\hosts`
 10. Paste `https://wasims.apc.edu.ph`
 11. Press Get Certificate and Confirm
 12. Open [wasims.apc.edu.ph](http://wasims.apc.edu.ph/) 
+Note: If the url still results to an error, try [clearing the cookies and site data](https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox#w_clear-cookies-for-the-current-website)  
 
 ## License
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
